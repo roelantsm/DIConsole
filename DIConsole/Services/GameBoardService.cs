@@ -48,28 +48,28 @@ namespace GanzenBoardGame.Application.Services
                 switch (i)
                 {
                     case BridgeLocatie.BridgeLocation:
-                        locationTypeString = "BridgeLocatie";
+                        locationTypeString = nameof(BridgeLocatie);
                         break;
                     case InnLocatie.InnLocation:
-                        locationTypeString = "InnLocatie";
+                        locationTypeString = nameof(InnLocatie);
                         break;
                     case WellLocatie.WellLocation:
-                        locationTypeString = "WellLocatie";
+                        locationTypeString = nameof(WellLocatie);
                         break;
                     case MazeLocatie.MazeLocation:
-                        locationTypeString = "MazeLocatie";
+                        locationTypeString = nameof(MazeLocatie);
                         break;
                     case PrisonLocatie.PrisonLocation:
-                        locationTypeString = "PrisonLocatie";
+                        locationTypeString = nameof(PrisonLocatie);
                         break;
                     case DeathLocatie.DeathLocation:
-                        locationTypeString = "DeathLocatie";
+                        locationTypeString = nameof(DeathLocatie);
                         break;
                     case EndLocatie.EndLocation:
-                        locationTypeString = "EndLocatie";
+                        locationTypeString = nameof(EndLocatie);
                         break;
                     default:
-                        locationTypeString = "CasualLocatie";
+                        locationTypeString = nameof(CasualLocatie);
                         break;
                 }
 
